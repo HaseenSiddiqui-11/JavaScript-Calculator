@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+#calculator-div{
+    width: 500px;
+    height: 500px;
+
+    border: 1px solid #bbb;
+    margin: 100px auto;
+}
+
+#text-field{
+    margin: 15px;
+    border: 1px solid #bbb;
+
+    height: 105px;
+
+    font-size: 2rem;
+    font-family: 'Roboto Mono', monospace;
+
+    padding-right: 20px;
+}
+
+#text-para{
+    float: right;
+}
+
+button{
+    width: 95px;
+    height: 50px;
+
+    margin: 5px;
+    font-size: 1rem;
+
+    border: none;
+    cursor: pointer;
+
+    background-color: #ddd;
+    transition: background-color .5s ease-in-out;
+
+}
+
+button:hover{
+    background-color: #FFAD60;
+}
+
+.operators{
+    background-color: #bbb
+}
+
+.calc-rows{
+    margin-left: 30px;
+
+    width: fit-content;
+}
+
+#equals{
+    position: relative;
+    left: 328px;
+    height: 170px;
+
+    bottom: 240px;
+    background-color: #FFAD60;
+}
