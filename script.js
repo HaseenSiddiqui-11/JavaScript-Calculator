@@ -9,7 +9,7 @@ function calculatorButtonTriggered(button) {
     console.log(button);
 
     if (button.innerHTML == "AC") {
-        textField.innerHTML = "aa";
+        textField.innerHTML = "";
     }
 
     else if (button.innerHTML == "C") {
